@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho&family=MuseoModerno&display=swap');
+
+* {
+  margin: 0;
+}
+body {
+  margin: 0px;
+  width: 100%;
+  background-color:#ffffff;
+}
+header {
+  display: flex;
+  padding: 20px 65px 20px 60px;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+}
+.readMe {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 41px;
+  color: #136f63;
+  cursor: pointer;
+}
+.readMe:hover{
+  background-color: #136f63be;
+}
+.contributor {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  background: #22aaa1;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.contributor:hover{
+  background-color: #22aaa175;
+}
+.contributor a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.topCont {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  color: #136f63;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.first {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+  padding: 30px 30px 60px 30px;
+}
+.origin {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 37px;
+  color: #136f63;
+}
+.lorem {
+  font-family: "Murecho";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.aug {
+  font-family: "Murecho";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #136f63;
+  display: flex;
+  justify-content: right;
+}
+.topBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.titleCont {
+  display: grid;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+  
+  padding-bottom: 20px;
+}
+.titleCont h4 {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 37px;
+  color: #136f63;
+}
+.titleCont .input1 {
+  border: 1px solid #22aaa1;
+  filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+  width: 850px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.titleCont .input2 {
+  border: 1px solid #22aaa1;
+  filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+  height: 300px;
+  width: 850px;
+  margin-bottom: 30px;
+}
+.titleCont button {
+  background: #22aaa1;
+  border-radius: 6px;
+  border: none;
+  display: block;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.titleCont button:hover{
+  background-color: #22aaa1c4;
+}
+.titleCont button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.randomText {
+  font-family: "Murecho";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 40px;
+  padding: 50px;
+  color: #000000;
+}
+.editbutton {
+  display: flex;
+  justify-content: right;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.editbutton button{
+  border: 4px solid #22AAA1;
+  border-radius: 4px;
+  padding: 5px 30px;
+  cursor: pointer;
+  color: #22AAA1;;
+}
+.btn1{
+  margin-right: 50px;
+  width: 100px;
+}
+.btn2{
+ width: 100px;
+}
+@media only screen and (min-width: 1100px) {
+  .topTop {
+    column-gap: 30px;
+  }
+  .topBottom {
+    column-gap: 30px;
+  }
+  .titleCont {
+    max-width: 700px;
+  }
+  .titleCont .input1 {
+    width: 650px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 650px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1099px) {
+  .topTop {
+    column-gap: 20px;
+  }
+  .topBottom {
+    column-gap: 20px;
+  }
+  .first {
+    padding: 30px 30px 30px 30px;
+  }
+  .origin {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .lorem {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .titleCont {
+    max-width: 800px;
+  }
+  .titleCont .input1 {
+    width: 750px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 750px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1023px) {
+  header {
+    padding: 20px 35px 20px 30px;
+  }
+  .readMe {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .contributor {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+  .topCont {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .topTop {
+    column-gap: 15px;
+  }
+  .topBottom {
+    column-gap: 15px;
+  }
+  .first {
+    padding: 30px 20px 30px 20px;
+  }
+  .origin {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .lorem {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .titleCont {
+    max-width: 700px;
+  }
+  .titleCont .input1 {
+    width: 650px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 650px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+  header {
+    padding: 15px 30px 15px 30px;
+  }
+  .readMe {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .contributor {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+  .topCont {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .topTop {
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .topBottom {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+  }
+  .first {
+    padding: 30px 30px 30px 30px;
+  }
+  .origin {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .lorem {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .titleCont {
+    max-width: 500px;
+  }
+  .titleCont .input1 {
+    width: 450px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 450px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 719px) {
+  header {
+    padding: 12px 25px 12px 20px;
+  }
+  .readMe {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .contributor {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+  .topCont {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .topTop {
+    row-gap: 40px;
+    grid-template-columns: 1fr;
+  }
+  .topBottom {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+  .first {
+    padding: 30px 20px 30px 20px;
+  }
+  .origin {
+    font-size: 22px;
+    line-height: 17px;
+  }
+  .lorem {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .titleCont {
+    max-width: 450px;
+  }
+  .titleCont .input1 {
+    width: 400px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 559px) {
+  header {
+    padding: 10px 25px 10px 20px;
+  }
+  .readMe {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .contributor {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+  .topCont {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .topTop {
+    row-gap: 40px;
+    grid-template-columns: 1fr;
+  }
+  .topBottom {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+  .first {
+    padding: 20px 20px 20px 20px;
+  }
+  .origin {
+    font-size: 20px;
+    line-height: 17px;
+  }
+  .lorem {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .titleCont {
+    max-width: 280px;
+  }
+  .titleCont .input1 {
+    width: 240px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 240px;
+  }
+}
+
+@media (min-width: 150px) and (max-width: 299px) {
+  .topTop {
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+  .topBottom {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .first {
+    padding: 20px 20px 20px 20px;
+  }
+  .origin {
+    font-size: 17px;
+    line-height: 16px;
+  }
+  .lorem {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .titleCont {
+    max-width: 150px;
+  }
+  .titleCont .input1 {
+    width: 120px;
+    height: 40px;
+  }
+  .titleCont .input2 {
+    height: 300px;
+    width: 120px;
+  }
+}
