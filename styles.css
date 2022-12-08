@@ -442,6 +442,13 @@ header {
     height: 300px;
     width: 240px;
   }
+  .topCont{
+    display: flex;
+    justify-content: center;
+  }
+  .randomText{
+    padding: 20px;
+  }
 }
 
 @media (min-width: 150px) and (max-width: 299px) {
@@ -474,5 +481,12 @@ header {
   .titleCont .input2 {
     height: 300px;
     width: 120px;
+  }
+  .topCont{
+    display: flex;
+    justify-content: center;
+  }
+  .randomText{
+    padding: 20px;
   }
 }
