@@ -207,6 +207,9 @@ header {
     height: 300px;
     width: 650px;
   }
+  .first{
+    width: 170px;
+  }
 }
 @media (min-width: 1024px) and (max-width: 1099px) {
   .topTop {
@@ -294,16 +297,16 @@ header {
 
 @media (min-width: 720px) and (max-width: 899px) {
   header {
-    padding: 15px 30px 15px 30px;
+    padding: 25px 35px 25px 35px;
   }
   .readMe {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 35px;
   }
   .contributor {
     font-weight: 300;
-    font-size: 17px;
+    font-size: 25px;
     line-height: 20px;
     padding: 10px 20px;
   }
@@ -327,12 +330,13 @@ header {
     margin-bottom: 30px;
   }
   .origin {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 25px;
   }
   .lorem {
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 40px;
+    padding:10px;
   }
   .titleCont {
     max-width: 500px;
@@ -345,6 +349,18 @@ header {
     height: 300px;
     width: 450px;
   }
+  .editbutton button{
+  border: 6px solid #22AAA1;
+  border-radius: 6px;
+  padding: 10px 35px;
+}
+.btn1{
+  margin-right: 50px;
+  width: 120px;
+}
+.btn2{
+ width: 120px;
+}
 }
 
 @media (min-width: 560px) and (max-width: 719px) {
